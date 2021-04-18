@@ -9,7 +9,6 @@ class CSRFSettings(BaseSettings):
   'CSRF settings'
 
   # Common settings
-  CSRF_SECRET_KEY: str = None
   CSRF_MAX_AGE: int = 3600
   # Header settings
   CSRF_HEADER_NAME: str = 'X-CSRF-Token'
