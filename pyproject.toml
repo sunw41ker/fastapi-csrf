@@ -26,10 +26,10 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "~3.8"
-fastapi = "~0.66"
+python = ">=3.8"
+fastapi = ">=0.63"
 itsdangerous = "^1.1.0"
-pydantic = "~1.7.2"
+pydantic = "~1.7"
 
 [tool.poetry.dev-dependencies]
 requests = "^2.25.0"
